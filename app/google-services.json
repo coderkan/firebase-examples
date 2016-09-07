@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "669413376999",
+    "firebase_url": "https://fbaseexample-ec4c4.firebaseio.com",
+    "project_id": "fbaseexample-ec4c4",
+    "storage_bucket": "fbaseexample-ec4c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669413376999:android:dbb4af9b8c848dda",
+        "android_client_info": {
+          "package_name": "cheetatech.firebaseexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669413376999-iimhq0bbqhegl7a5irt9sr04lq5audbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh_KxhjbHKDB_pA0y0cby689ghcQYxiX8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

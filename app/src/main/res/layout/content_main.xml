@@ -12,8 +12,58 @@
     tools:context="cheetatech.firebaseexample.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İsim"
+        />
+    <EditText
+        android:id="@+id/txtSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:hint="Soyisim"
+        />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ekle"
+        android:layout_below="@+id/txtSurname"
+        />
+
+    <Button
+        android:id="@+id/listButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listele"
+        android:layout_below="@+id/addButton"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/listButton"
+        android:id="@+id/lineLinearLayout"
+        android:orientation="horizontal"
+        >
+    </LinearLayout>
+
+
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/listView"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lineLinearLayout" />
+
+
+
+
 </RelativeLayout>
